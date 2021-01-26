@@ -21,6 +21,11 @@ namespace DefaultNamespace
     {
       Console.WriteLine("MyClass");
     }
+
+    ~MyClass()
+    {
+      
+    }
   }
 
   public class MyOtherClass : MyClass
@@ -28,6 +33,7 @@ namespace DefaultNamespace
     public override void MagicMethod()
     {
       Console.WriteLine("MyOtherClass");
+      
     }
   }
 }
