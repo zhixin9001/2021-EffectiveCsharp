@@ -1,9 +1,8 @@
-﻿using System;
-
-namespace EffectiveCSharp
+﻿namespace EffectiveCSharp
 {
     using _2_GC;
     using _3_Generic;
+    using _3_Generic.Session;
     using DefaultNamespace;
 
     class Program
@@ -23,8 +22,13 @@ namespace EffectiveCSharp
             // _22_In_Out.Entry();
             // _23_Delegate.Entry();
             // _24_Overload.Entry();
-            // _25_Method.Entry();
-            _26_Extension.Entry();
+            _25_Method.Entry();
+            // _26_Extension.Entry();
+            // Session_Runtime.Entry();
+            // Session_InOut.Entry();
+            // Session_Disposable.Entry();
+            // Session_Overload.Entry();
+            
         }
         
     }

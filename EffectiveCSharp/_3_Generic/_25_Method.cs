@@ -14,12 +14,14 @@ namespace EffectiveCSharp._3_Generic
       var b = Utils<int>.Max(4, 3);
       Console.WriteLine(b.ToString());
       
-      
-      var c=Utils1.Max("c", "d");
-      Console.WriteLine(a);
+      var c=Utils1.Max<string>("c", "d"); /* better to remove <string> */
+      Console.WriteLine(c);
       
       var d = Utils1.Max(4, 3);
-      Console.WriteLine(b.ToString());
+      Console.WriteLine(d.ToString());
+
+      // var d1 = Utils1.Max(4d, 3d);
+      // Console.WriteLine(d1.ToString());
     }
 
     public class Utils<T>
@@ -42,10 +44,10 @@ namespace EffectiveCSharp._3_Generic
         return Math.Max(left, right) > 0 ? left : right;
       }
       
-      public static double Max(double left, double right)
-      {
-        return Math.Max(left, right) > 0 ? left : right;
-      }
+      // public static double Max(double left, double right)
+      // {
+      //   return Math.Max(left, right) > 0 ? left : right;
+      // }
     }
   }
 }

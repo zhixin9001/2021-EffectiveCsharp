@@ -12,11 +12,10 @@ namespace EffectiveCSharp._3_Generic
       // using var a = new EngineDriver2<UnManaged>();
       // a.GetThingsDone();
 
-      using (var driver = new UnManaged())
-      {
-        var a = new EngineDriver3<UnManaged>(driver);
-        
-      }
+      // using (var driver = new UnManaged())
+      // {
+      //   var a = new EngineDriver3<UnManaged>(driver);   
+      // }
     }
   }
 
@@ -26,6 +25,8 @@ namespace EffectiveCSharp._3_Generic
 
     public void Dispose()
     {
+      // ... do dispose
+      
       GC.SuppressFinalize(this);
     }
 

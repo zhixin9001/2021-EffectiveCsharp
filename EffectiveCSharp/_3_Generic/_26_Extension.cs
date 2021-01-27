@@ -1,6 +1,8 @@
 namespace EffectiveCSharp._3_Generic
 {
   using System;
+  using System.Collections.Generic;
+  using System.Linq;
 
   public class _26_Extension
   {
