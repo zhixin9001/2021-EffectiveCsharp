@@ -24,7 +24,7 @@
             // _22_In_Out.Entry();
             // _23_Delegate.Entry();
             // _24_Overload.Entry();
-            // _25_Method.Entry();
+            _25_Method.Entry();
             // _26_Extension.Entry();
             // Session_Runtime.Entry();
             // Session_InOut.Entry();
@@ -33,7 +33,7 @@
             // _29_Yield.Entry();
             // _30_Declarative.Entry();
             // _31_Pipeline.Entry();
-            _50_ExceptionFilter.Entry();
+            // _50_ExceptionFilter.Entry();
         }
         
     }

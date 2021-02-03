@@ -8,10 +8,10 @@ namespace EffectiveCSharp._3_Generic.Session
     {
       MyDerived derived = new MyDerived();
       WriteMsg(derived);
-
+      
       var msgWriter = derived as IMsgWriter;
       WriteMsg(msgWriter);
-
+      
       var mbase = derived as MyBase;
       WriteMsg(mbase);
     }
